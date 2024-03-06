@@ -1,6 +1,29 @@
 header {
+    display: inline-block;
+    width: 100%;
     background-color: bisque;
 }
-header img {
-    height: 60px;
+
+header > img {
+    height: 50px;
+    float: left;
+}
+
+header > nav {
+    margin-top: 13px;
+    float: right;
+}
+
+header a {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-right: 60px;
+}
+header a:last-child {
+    margin-right: 0;
+}
+header a:hover {
+    color: blue
 }

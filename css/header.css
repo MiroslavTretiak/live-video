@@ -1,29 +1,27 @@
+
+
 header {
-    display: inline-block;
-    width: 100%;
-    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 20px calc(50% - 500px);
 }
 
-header > img {
-    height: 50px;
-    float: left;
+.logo {
+    height: 40px;
 }
 
-header > nav {
-    margin-top: 13px;
-    float: right;
+.main-nav {
+    display: flex;
+    gap: 20px;
 }
 
-header a {
-    float: left;
+.link {
+    color: blue;
     font-size: 20px;
-    line-height: 20px;
     text-decoration: none;
-    margin-right: 60px;
 }
-header a:last-child {
-    margin-right: 0;
-}
-header a:hover {
-    color: blue
+.link:hover {
+    color: red;
 }

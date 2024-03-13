@@ -25,3 +25,9 @@ header {
 .link:hover {
     color: red;
 }
+@media (max-width:700px) {
+
+.main-nav {
+    display: none;
+}
+}
